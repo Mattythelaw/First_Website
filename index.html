@@ -1,32 +1,55 @@
 <!DOCTYPE html>
-<!-- Shirt ! to start html -->
+<!-- Shift ! to start html -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Site</title>
 
-      <ul style = "color: tomato;">
 
-        <li><a href="index.html" style="color: inherit">Home</a></li>
+    <header>
+      <ul style = "color: tomato;">
+        <!-- Navigation list -->
+        <li><a href="#Breaking_Heading">Home</a></li>
         <li><a href="about.html" style="color: inherit">About Us</a></li>
-        <li><a href="about.html" style="color: inherit">Products and Services</a></li>
+        <li><a href="services.html" style="color: inherit">Products and Services</a></li>
         <li><a href="gallery.html" style="color: inherit">Gallery</a></li>
         <li><a href="contact.html" style="color: inherit"> Contact Us</a></li>
-
     </ul>
-</head>
-<body>
-    <h1 title="Heading">[Breaking News]- Latest on the weather</h1>
-    <h2>Cape Town Weather</h2>
+    </header>
 
+    <section>
+    <!-- Adding image -->
+    <img src="./_images/sun.jpg" width="300" alt="Sunny_picture"/>
+
+    <article>
+    <!-- Option to download a pdf document -->
+    <a href="./_documents/Download_Doc.txt" download target="_blank">
+        <h5> Check weather report </h5>
+     </a>   
+     </article>
+     </section>
+
+     <!-- Smentic tags(section) -->
+    <section>
+    <h1 title="Heading" id="Breaking_Heading">[Breaking News] - Latest on the weather</h1>
+    <h2>Cape Town Weather</h2>
+    </section>
+
+    <main>
     <p title="Today's forecast">
         The bright sun shines in a clear blue sky today in <strong>Rondebosch, Cape Town.</strong> <br><br>
-        <em>Gentle east winds</em> blow softly while the temperature sits at a <strong>warm and pleasant 20°C.</strong> 
-        
+       <aside> <em>Gentle east winds</em> blow softly while the temperature sits at a <strong>warm and pleasant 20°C.</strong></aside> 
     </p>
+    </main>
     <p> Movie Mirror 2020 &copy;</p>
     <!-- This is how to comment shortcut = "ctrl+/" -->
+
+
+
+     <footer>
+        <p>Contact us here: xyz</p>
+     </footer>
 
   
     
