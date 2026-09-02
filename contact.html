@@ -17,6 +17,31 @@
     </ul>
     </header>
 
+    <h1>Contact Us:</h1>
+    <form name="contact" id="contact" method="post" action="/submit" autocomplete="on">
+
+    <fieldset>
+    <legend>Contact us</legend>
+
+        <label for="name">Full name</label>
+        <input type="text" id="name" name="name" required maxlength="60">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="topic">Topic</label>
+        <select id="topic" name="topic">
+
+            <option value="support">Support</option>
+            <option value="sales">Sales</option>
+            <option value="general">General</option>
+
+        </select>
+        <input type="submit" value="Send">
+        
+</fieldset>
+</form>
+
     <!-- Link to email when image is clicked on -->
     <a href="mailto:matthewconnor0418@gmail.com">
         <img src="./_images/email-icon.png" width="300" height="200"/>
