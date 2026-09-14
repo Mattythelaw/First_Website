@@ -17,3 +17,19 @@ a:hover{
 .main_img{
     opacity: 0.5
 }
+
+.report1{
+    border: 5px groove rgb(103, 103, 188);
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+h2{
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    word-spacing: 10px;
+}
