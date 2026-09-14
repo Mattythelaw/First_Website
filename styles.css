@@ -9,3 +9,11 @@ div{
 a:hover{
     color: red;
 }
+
+.body{
+    overflow: scroll;
+}
+
+.main_img{
+    opacity: 0.5
+}
