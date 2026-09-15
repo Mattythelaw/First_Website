@@ -27,7 +27,11 @@ a:hover{
 }
 
 .report1{
-    border: 5px groove rgb(103, 103, 188);
+    border: 5px dotted rgb(103, 103, 188);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
     margin-left: 50px;
     margin-right: 50px;
     padding-left: 25px;
@@ -61,4 +65,18 @@ a:hover{
     column-gap: 20px;
     column-rule: 1px solid gray;
 }
+
+ol.contact-list li:hover{
+    background-color: #e6ee0f;
+}
+
+ol.contact-list li:first-child{
+    font-weight: bold;
+}
+
+ol.contact-list li:nth-child(2){
+    color: #e8930a
+}
+
+
 
