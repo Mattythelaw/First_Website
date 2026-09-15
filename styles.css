@@ -1,3 +1,8 @@
+:root{
+    --main-color: #c8c3c3;
+    /* Varibale for color for easy reuse */
+}
+
 /* (Google Fonts, 2026) */
 .roboto-condensed {
   font-family: "Roboto Condensed", sans-serif;
@@ -18,9 +23,34 @@ a:hover{
     color: red;
 }
 
-.body{
+body{
     overflow: scroll;
+    background-color: var(--main-color);
 }
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #5b5858;
+    display: flex;
+    justify-content: center;
+
+}
+
+ul li{
+    float: left;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
 
 .main_img{
     opacity: 50
@@ -49,15 +79,15 @@ h2{
 }
 
 a:link{
-    color: #c41f1f
+    color: #c4c11f
 }
 
 a:visited{
-    color: #e0198a
+    color: #cfe019
 }
 
 a:hover{
-    color:#bc10e2
+    color:#3d393d
 }
 
 .multi{
@@ -88,6 +118,19 @@ ol.contact-list li:nth-child(2){
 }
 
 .box:hover{
+    transform: scale(1.5) rotate(45deg);
+}
+
+.box2{
+    background-color: #3a38386c;
+    width: 150px;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+    transition: transform 3s ease;
+}
+
+.box2:hover{
     transform: scale(1.5) rotate(45deg);
 }
     
