@@ -98,7 +98,7 @@ a:hover{
 }
 
 ol.contact-list li:hover{
-    background-color: #e6ee0f;
+    background-color: #eeb20f;
 }
 
 ol.contact-list li:first-child{
@@ -110,7 +110,7 @@ ol.contact-list li:nth-child(2){
 }
 
 .box{
-    background-color: #e6ee0f;
+    background-color: #d89912;
     width: 150px;
     height: 150px;
     margin: 20px;
@@ -123,7 +123,7 @@ ol.contact-list li:nth-child(2){
 }
 
 .box2{
-    background-color: #3a38386c;
+    background-color: #3424046c;
     width: 150px;
     height: 200px;
     margin: 20px;
