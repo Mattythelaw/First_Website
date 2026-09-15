@@ -23,7 +23,7 @@ a:hover{
 }
 
 .main_img{
-    opacity: 0.5
+    opacity: 50
 }
 
 .report1{
@@ -78,5 +78,16 @@ ol.contact-list li:nth-child(2){
     color: #e8930a
 }
 
+.box{
+    background-color: #e6ee0f;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    padding: 10px;
+    transition: transform 3s ease;
+}
 
-
+.box:hover{
+    transform: scale(1.5) rotate(45deg);
+}
+    
