@@ -43,3 +43,22 @@ h2{
     word-spacing: 10px;
     font-weight: bold;
 }
+
+a:link{
+    color: #c41f1f
+}
+
+a:visited{
+    color: #e0198a
+}
+
+a:hover{
+    color:#bc10e2
+}
+
+.multi{
+    column-count: 3;
+    column-gap: 20px;
+    column-rule: 1px solid gray;
+}
+
