@@ -118,6 +118,11 @@ ol.contact-list li:nth-child(2){
     transition: transform 3s ease;
 }
 
+.box.hidden{
+    opacity: 0;
+    visibility: hidden;
+}
+
 .box:hover{
     transform: scale(1.5) rotate(45deg);
 }
