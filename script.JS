@@ -15,4 +15,5 @@ function validateForm() {
     } else {
         alert("Please enter a valid email")
     }
+    document.getElementById("response").innerHTML = "<h2>Thank you for your response</h2>";
 }
