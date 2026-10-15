@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.JS" defer></script>
     <title>Contact US</title>
 </head>
 <body style="background-color: lightblue;">
@@ -32,45 +33,25 @@
         <img src="./_images/email-icon.png" width="300" height="200"/>
      </a>   
 
-    <h1>Contact Us:</h1>
-    <form name="contact" id="contact" method="post" action="/submit" autocomplete="on">
+     <br>
 
-    <!-- Groups related fields and labels together inside a form -->
-    <fieldset>
-        <!-- Creates a title for group content -->
-    <legend>Contact us</legend>
+     <!-- php was just an example on how to use secure form vaidation  -->
+     <form action="sendResults.php" method="psot" id="membershipForm">
+        <table>
+            <td>
+                <input type="text" name="userName" id="userName" value="Enter your name" onFocus="" this.value="">
+            </td>
+             <td>
+                <input type="text" name="userEmail" id="userEmail" value="Enter your email" onFocus="" this.value="">
+            </td>
+            <td>
+                <input type="submit" value="Join" onclick="validateForm()">
+            </td>
+        </table>
+     </form>
 
-        <label for="name">Full name</label><br>
-        <input type="text" id="name" name="name" required maxlength="60"><br><br>
-
-        <label for="email">Email</label><br>
-        <input type="email" id="email" name="email" required><br><br>
-
-        <label for="male">male</label>
-        <!-- Radio button for male -->
-        <input type="radio" name="gender" id="gender" value="male"/>
-        
-        <label for="female">female</label>
-        <!-- Radio button for female -->
-        <input type="radio" name="gender" id="gender" value="female"/><br>
-           
-
-
-        <label for="topic">Topic</label><br>
-        <!-- Drop down menu -->
-        <select id="topic" name="topic"><br><br>
-
-            <!-- Drop down menu options -->
-            <option value="support">Support</option>
-            <option value="sales">Sales</option>
-            <option value="general">General</option>
-
-        </select>
-        <!-- Button for submission -->
-        <input type="submit" value="Send">
-
-    </fieldset>
-    </form>
+    
+    
 
      <!-- Google maps > choose location > share > copy embedded code Adding map -->
      <iframe name="My _Location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.562047917382!2d18.456519275512115!3d-33.952390573194826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5d163d20436d%3A0x9936a37e071ea158!2sRhodes%20Memorial!5e0!3m2!1sen!2sza!4v1788179367013!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"

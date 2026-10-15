@@ -1,15 +1,18 @@
-const toggleBtn = document.querySelector('#toggleBtn');
-const targetElement = document.querySelector('#targetElement');
+function validateForm() {
+    let validateName = document.getElementById("userName").value;
+    let validateEmail = document.getElementById("userEmail").value;
 
-toggleBtn.addEventListener('click', function() {
-
-    targetElement:classList.toggle('hidden');
-
-    if (targetElement.classList.contains('hidden')) {
-        toggleBtn.textContent = 'Show';
-    } else {
-
-        toggleBtn.textContent = 'Hide';
-
+    if (validateName == "Enter your name" || validateName == "") {
+        alert("Please enter a valid name")
     }
-});
+
+    // if (validateEmail == "Enter your email" || validateEmail = "") {
+    //     alert("Please enter a valid email")
+    // }
+
+    if(validateEmail.includes("@") && validateEmail.includes(".")){
+
+    } else {
+        alert("Please enter a valid email")
+    }
+}
